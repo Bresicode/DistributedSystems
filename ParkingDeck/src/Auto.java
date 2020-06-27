@@ -21,7 +21,6 @@ public class Auto implements Runnable{
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-            System.out.println("Auto: " + autonummer + " ist angekommen.");
             parkhaus.freiePlaetzeReduzieren();
             System.out.println("Auto: " + autonummer + " ist eingefahren.");
             try {
